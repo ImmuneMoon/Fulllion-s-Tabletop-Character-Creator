@@ -95,22 +95,22 @@ const initialFields: SheetField[] = [
   { id: 'survival_check', label: 'Survival_check', type: 'checkbox', x: 48.25, y: 48.65 },
 
   { id: 'acrobat', label: 'Acrobatics', type: 'input', x: 50.75, y: 18.25, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
-  { id: 'animalHandle', label: 'AnimalHandling', type: 'input', x: 50.75, y: 20.15, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
-  { id: 'arcana', label: 'Arcana', type: 'input', x: 50.75, y: 22.05, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
-  { id: 'athletics', label: 'Athletics', type: 'input', x: 50.75, y: 23.95, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
-  { id: 'deception', label: 'Deception', type: 'input', x: 50.75, y: 25.85, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
-  { id: 'insight', label: 'Insight', type: 'input', x: 50.75, y: 27.7, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
-  { id: 'intimidate', label: 'Intimidation', type: 'input', x: 50.75, y: 29.6, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
-  { id: 'investigate', label: 'Investigation', type: 'input', x: 50.75, y: 31.5, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
-  { id: 'medicine', label: 'Medicine', type: 'input', x: 50.75, y: 33.4, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
-  { id: 'nature', label: 'Nature', type: 'input', x: 50.75, y: 35.3, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
+  { id: 'animalHandle', label: 'AnimalHandling', type: 'input', x: 50.75, y: 20.15, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
+  { id: 'arcana', label: 'Arcana', type: 'input', x: 50.75, y: 22.05, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
+  { id: 'athletics', label: 'Athletics', type: 'input', x: 50.75, y: 23.95, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
+  { id: 'deception', label: 'Deception', type: 'input', x: 50.75, y: 25.85, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
+  { id: 'insight', label: 'Insight', type: 'input', x: 50.75, y: 27.7, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
+  { id: 'intimidate', label: 'Intimidation', type: 'input', x: 50.75, y: 29.6, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
+  { id: 'investigate', label: 'Investigation', type: 'input', x: 50.75, y: 31.5, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
+  { id: 'medicine', label: 'Medicine', type: 'input', x: 50.75, y: 33.4, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
+  { id: 'nature', label: 'Nature', type: 'input', x: 50.75, y: 35.3, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
   { id: 'perceptionSkillModifier', label: 'Perception Skill Modifier', type: 'input', x: 50.75, y: 37.2, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
-  { id: 'perform', label: 'Performance', type: 'input', x: 50.75, y: 39.1, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
-  { id: 'persuasion', label: 'Persuasion', type: 'input', x: 50.75, y: 41, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
-  { id: 'religion', label: 'Religion', type: 'input', x: 50.75, y: 42.9, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
-  { id: 'sleightOfHand', label: 'Sleight Of Hand', type: 'input', x: 50.75, y: 44.8, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
-  { id: 'stealth', label: 'Stealth', type: 'input', x: 50.75, y: 46.7, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
-  { id: 'survival', label: 'Survival', type: 'input', x: 50.75, y: 48.6, width: 3, placeholder: '', fontSize: '8px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
+  { id: 'perform', label: 'Performance', type: 'input', x: 50.75, y: 39.1, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
+  { id: 'persuasion', label: 'Persuasion', type: 'input', x: 50.75, y: 41, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
+  { id: 'religion', label: 'Religion', type: 'input', x: 50.75, y: 42.9, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
+  { id: 'sleightOfHand', label: 'Sleight Of Hand', type: 'input', x: 50.75, y: 44.8, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
+  { id: 'stealth', label: 'Stealth', type: 'input', x: 50.75, y: 46.7, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
+  { id: 'survival', label: 'Survival', type: 'input', x: 50.75, y: 48.6, width: 3, placeholder: '', fontSize: '12px', textAlign: 'center', maxLength: 2, style: { height: '16px', fontSize: '12px', lineHeight: '12px', minHeight: '0px', padding: '0px' } },
 
   { id: 'deathSaveSuccess1', label: 'Death Save Success 1', type: 'checkbox', x: 88.3, y: 27 },
   { id: 'deathSaveSuccess2', label: 'Death Save Success 2', type: 'checkbox', x: 90.4, y: 27 },
@@ -122,11 +122,11 @@ const initialFields: SheetField[] = [
   { id: 'featsTraits', label: 'Feats & Traits', type: 'textarea', x: 5.5, y: 53, width: 28, height: 20, placeholder: 'Additional traits...', fontSize: '10px' },
   { id: 'otherProf', label: 'Other Proficiencies', type: 'textarea', x: 5.5, y: 75.75, width: 28, height: 19, placeholder: 'Common, Elvish, Dwarvish...', fontSize: '10px' },
 
-  { id: 'copper', label: 'Copper', type: 'input', x: 36.85, y: 53.5, width: 6, placeholder: '0', fontSize: '20px', textAlign: 'center', maxLength: 2 },
-  { id: 'silver', label: 'Silver', type: 'input', x: 36.85, y: 56.75, width: 6, placeholder: '0', fontSize: '20px', textAlign: 'center', maxLength: 2 },
-  { id: 'electrum', label: 'Electrum', type: 'input', x: 36.85, y: 60, width: 6, placeholder: '0', fontSize: '20px', textAlign: 'center', maxLength: 2 },
-  { id: 'gold', label: 'gold', type: 'input', x: 36.85, y: 63.25, width: 6, placeholder: '0', fontSize: '20px', textAlign: 'center', maxLength: 2 },
-  { id: 'platinum', label: 'Platinum', type: 'input', x: 36.85, y: 66.5, width: 6, placeholder: '0', fontSize: '20px', textAlign: 'center', maxLength: 2 },
+  { id: 'copper', label: 'Copper', type: 'input', x: 36.85, y: 53.5, width: 6, placeholder: '0', fontSize: '8px', textAlign: 'center', maxLength: 12 },
+  { id: 'silver', label: 'Silver', type: 'input', x: 36.85, y: 56.75, width: 6, placeholder: '0', fontSize: '8px', textAlign: 'center', maxLength: 12 },
+  { id: 'electrum', label: 'Electrum', type: 'input', x: 36.85, y: 60, width: 6, placeholder: '0', fontSize: '8px', textAlign: 'center', maxLength: 12 },
+  { id: 'gold', label: 'gold', type: 'input', x: 36.85, y: 63.25, width: 6, placeholder: '0', fontSize: '8px', textAlign: 'center', maxLength: 12 },
+  { id: 'platinum', label: 'Platinum', type: 'input', x: 36.85, y: 66.5, width: 6, placeholder: '0', fontSize: '8px', textAlign: 'center', maxLength: 12 },
 
 
   { id: 'attacks', label: 'Attacks', type: 'textarea', x: 68, y: 35, width: 27, height: 18, placeholder: '', fontSize: '10px' },
@@ -135,6 +135,7 @@ const initialFields: SheetField[] = [
   { id: 'spells', label: 'Spellcasting', type: 'textarea', x: 68, y: 55, width: 27, height: 40, placeholder: 'Divine Smite, Lay on Hands, Aura of Protection...', fontSize: '10px' },
   { id: 'notes', label: 'Character Notes', type: 'textarea', x: 26, y: 32, width: 18, height: 20, placeholder: 'Backstory elements, goals, allies...', fontSize: '10px' },
 ];
+
 
 
 export default function SheetForgePage() {
@@ -165,8 +166,8 @@ export default function SheetForgePage() {
         if (containerWidth < actualSheetWidth) {
           scale = containerWidth / actualSheetWidth;
         }
-
-        scale = Math.max(scale, 0.2);
+        
+        scale = Math.max(scale, 0.2); // Ensure minimum scale
 
         sheetRef.current.style.transform = `scale(${scale})`;
         sheetRef.current.style.transformOrigin = 'top left';
@@ -254,22 +255,32 @@ export default function SheetForgePage() {
           
           pdf.setFontSize(fieldFontSize);
           pdf.setFont("helvetica");
+          
+          let textY;
+          const fieldsToAdjustY = [
+            'acrobat', 'animalHandle', 'arcana', 'athletics', 'deception', 'insight', 'intimidate', 'investigate', 'medicine', 'nature', 'perceptionSkillModifier', 'perform', 'persuasion', 'religion', 'sleightOfHand', 'stealth', 'survival'
+          ];
 
-          // Vertical alignment adjustment: try to center text in the field or align top
-          // This is a common adjustment; actual ideal offset might vary slightly by font
-          const textVerticalOffset = fieldFontSize * 0.8; // Heuristic for baseline adjustment
-          let textY = fieldY + textVerticalOffset + (fieldFontSize * 0.7); // Default to top alignment + offset, shifted down
+          if (fieldsToAdjustY.includes(field.id)) {
+            // Set textY directly to fieldY with a standard baseline adjustment
+            textY = fieldY + fieldFontSize * 0.8;
+          } else {
+            // Vertical alignment adjustment: try to center text in the field or align top
+            // This is a common adjustment; actual ideal offset might vary slightly by font
+            const textVerticalOffset = fieldFontSize * 0.8; // Heuristic for baseline adjustment
+            textY = fieldY + textVerticalOffset + (fieldFontSize * 0.7); // Default to top alignment + offset, shifted down
+          }
 
           // Apply additional downward offset for specific fields
           const fieldsWithExtraOffset = ['characterName', 'classLevel', 'background', 'playerName', 'race', 'alignment', 'experience'];
           if (fieldsWithExtraOffset.includes(field.id)) { 
- textY += 3; // Increased offset
+            textY += 3; // Increased offset
           }
 
           // Apply upward offset for specific fields
           const fieldsWithUpwardOffset = ['inspiration', 'proficiencyBonus', 'initiative', 'hitPoints', 'tempHP', 'armorClass'];
           if (fieldsWithUpwardOffset.includes(field.id)) {
- textY -= fieldFontSize * 0.5; // Raise text by half font height
+            textY -= fieldFontSize * 0.5; // Raise text by half font height
           }
 
 
@@ -330,19 +341,21 @@ export default function SheetForgePage() {
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col items-center py-8 sm:py-10 px-4">
       <header className="mb-6 sm:mb-8 text-center">
-        {/* Wrap NextImage in a div to control size with 'fill' */}
-        <div className="mx-auto block relative" style={{ width: "auto", height: "300px" }}>
-          <NextImage
-            src="/assets/SheetForge.png"
-            alt="SheetForge Logo"
-            fill // Use fill to make the image size based on the parent div
-            priority
-            unoptimized
-          />
+        <div
+          style={{ maxWidth: '300px', maxHeight: '300px', height: '300px', position: 'relative' }}
+          className="mx-auto block"
+        >
+        <NextImage
+          src="/assets/SheetForge.png"
+          alt="SheetForge Logo"
+          sizes="(max-width: 768px) 100vw, 300px"
+          fill
+          priority
+        />
         </div>
         <p className="text-sm sm:text-base text-muted-foreground mt-2">Craft your character, print your legend.</p>
       </header>
-      
+
       <div ref={sheetDisplayContainerRef} className="w-full max-w-4xl mx-auto mb-6 sm:mb-8" style={{ overflow: 'hidden' }}>
         <div
           ref={sheetRef}
@@ -360,12 +373,12 @@ export default function SheetForgePage() {
             className="absolute inset-0 pointer-events-none -z-10"
             data-ai-hint="character sheet scroll"
             unoptimized 
-            onLoad={() => {
-                if(sheetRef.current) sheetRef.current.style.backgroundColor = 'transparent';
-            }}
             onError={(e) => {
                 console.error("Image failed to load on page:", e.currentTarget.currentSrc);
-                if(sheetRef.current) sheetRef.current.style.backgroundColor = 'white'; // Fallback for image error
+                if(sheetRef.current) sheetRef.current.style.backgroundColor = 'white';
+            }}
+            onLoad={() => {
+                if(sheetRef.current) sheetRef.current.style.backgroundColor = 'transparent';
             }}
           />
           {initialFields.map(field => {
@@ -373,20 +386,20 @@ export default function SheetForgePage() {
               position: 'absolute',
               left: `${field.x}%`,
               top: `${field.y}%`,
-              width: field.width ? `${field.width}%` : (field.type === 'checkbox' ? '1.5%' : 'auto'), 
+              width: field.width ? `${field.width}%` : (field.type === 'checkbox' ? '1.5%' : 'auto'),
               boxSizing: 'border-box',
-              ...(field.style?.height && { height: typeof field.style.height === 'number' ? `${field.style.height}px` : field.style.height }),
-
             };
 
             if (field.fontSize) fieldStyle.fontSize = field.fontSize;
             if (field.textAlign) fieldStyle.textAlign = field.textAlign;
 
 
+            if (field.type === 'textarea' && field.height) {
+              fieldStyle.height = `${field.height}%`;
+            }
              if (field.type === 'input' && field.height) {
               fieldStyle.height = `${field.height}%`;
             }
-            
 
             if (field.type === 'checkbox') {
               return (
@@ -469,3 +482,5 @@ export default function SheetForgePage() {
     </div>
   );
 }
+
+    
