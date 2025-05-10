@@ -1,5 +1,3 @@
-# Firebase Studio
-
 # SheetForge
 
 Craft your character, print your legend.
